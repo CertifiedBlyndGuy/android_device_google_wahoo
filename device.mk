@@ -728,4 +728,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.opa.eligible_device=true \
     ro.gfx.angle.supported=true
 
+# IMS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 -include device/google/wahoo/device-carbon.mk
